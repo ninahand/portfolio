@@ -37,6 +37,7 @@
        "date": "Winter 2023 - Present", 
        "type": "Print/Web Design",
        "description": "Fliers made for various events, including band shows, tours, and plays.",
+       "image": "./assets/flier.jpg", 
        "link": "https://ninahand.github.io/portfolio/fliers/"
    },
    {
@@ -44,6 +45,7 @@
        "date": "Fall 2023",
        "type": "Photography",
        "description": "120mm color film.",
+       "image": "./assets/stonington.jpg", 
        "link": "https://ninahand.github.io/portfolio/stonington/"
    },
    {
@@ -51,6 +53,7 @@
        "date": "Summer 2023",
        "type": "Photography",
        "description": "35mm + 120mm b/w film.",
+       "image": "./assets/ari.jpg", 
        "link": "https://ninahand.github.io/portfolio/ari/"
    },
    {
@@ -58,6 +61,7 @@
        "type": "Print Design",
        "date": "Spring 2024", 
        "description": "Wood relief carving + letterpress type, lithography.",
+       "image": "./assets/printmaking.jpg", 
        "link": "https://ninahand.github.io/portfolio/printmaking/"
    },
    {
@@ -65,6 +69,7 @@
       "date": "Fall 2023",
       "type": "Photography",
       "description": "35mm b/w film",
+      "image": "./assets/kippersWives.jpg", 
       "link": "https://ninahand.github.io/portfolio/kipperswives/"
       },
    {
