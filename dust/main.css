@@ -1,0 +1,81 @@
+/* reset.css */
+html, body, main {
+    margin: 0;
+    padding: 0;
+}
+
+/* main.css */
+@font-face {
+    font-family: 'Respira Black';
+    src: url('./path/to/Respira-Black.woff') format('woff');
+    /* You can provide multiple formats for compatibility */
+}
+
+html, body, main {
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading-container {
+    display: flex;
+    padding: 1rem;
+}
+
+.name-container {
+    font-size: 2.6rem;
+}
+
+.project-title-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    align-items: baseline;
+    
+}
+
+.title {
+    font-size: 8rem;
+    font-weight: 400;
+}
+
+.description-container {
+    font-size: 2rem;
+    width: 40%;
+    text-align: right;
+}
+.gif-container {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    padding: 3rem;
+}
+
+.gif-container img {
+    max-height: 100%;
+    height: auto;
+}
+
+
+.main-image-container {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.main-image-container img {
+    width: 100%;
+    height: auto;
+}
