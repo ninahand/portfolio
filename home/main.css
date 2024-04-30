@@ -80,11 +80,14 @@ html{
     font-family: 'oracle-regular';
     text-align: left;
     font-size: 1.3rem;
+    cursor: pointer;
 }
 
 .project-table td{
     width: 5%;
-    word-wrap: break-word; /* Add this line to enable text wrapping */
+    word-wrap: break-word; 
+
+
 }
 
 .hidden{

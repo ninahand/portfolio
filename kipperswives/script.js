@@ -2,14 +2,29 @@ document.addEventListener("DOMContentLoaded", function() {
     fetch("./data.json")
     .then((response) => response.json())
     .then((items) => {
-        let mainContainer = document.querySelector('.main-image-container');
-        items.forEach((item) => {
-            let imageContainer = document.createElement("div");
-            imageContainer.classList.add("image-container");
+        let gridContainer = document.querySelector('.grid-container');
+        let zoomContainer = document.querySelector('.zoom-container');
+
+        items.forEach(item => {
             let projectImage = document.createElement("img");
             projectImage.src = item.path;
-            imageContainer.appendChild(projectImage);
-            mainContainer.appendChild(imageContainer);
+            gridContainer.appendChild(projectImage);
+
+            projectImage.addEventListener('mouseover', function() {
+
+                console.log('mouseover')
+                if (item.path) {
+                    let img = document.createElement('img');
+                    img.src = item.path;
+                    zoomContainer.innerHTML = '';
+                    zoomContainer.appendChild(img);
+                }
+            });
+
+            projectImage.addEventListener('mouseout', function() {
+                console.log()
+                zoomContainer.innerHTML = '';
+            });
         });
     });
 });

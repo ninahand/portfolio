@@ -4,76 +4,83 @@
        "date": "Fall 2023",
        "type": "Print Design",
        "description": "A book made using the Catholic Church Wikipedia page as text content.",
-       "image": "./assets/dust.png"
+       "image": "./assets/dust.png",
+       "link": "https://ninahand.github.io/portfolio/dust/"
    },
    {
        "project": "Greyhound", 
        "date": "Spring 2024",
        "type": "Print Design",
        "description": "A single signature book exploring the ephemerality of home.",
-       "image": "./assets/greyhound.png"
+       "image": "./assets/greyhound.png",
+       "link": "https://ninahand.github.io/portfolio/greyhound/"
    },
    {
        "project": "Up, Bed", 
        "date": "Spring 2024",
        "type": "Web Design",
        "description": "An online archive of my what I did every day of 2023. (A work in progress)",
-       "image": "./assets/upBed.jpg"
+       "image": "./assets/upBed.jpg", 
+       "link": "https://ninahand.github.io/archive/"
+
    },
    {
        "project": "The Library of Babel", 
        "date": "Spring 2024",
        "type": "Web Design",
        "description": "A multi-page website translating the story by Jorge Luis Borges into a digital experience.",
-       "image": "./assets/library.jpg"
+       "image": "./assets/library.jpg",
+       "link": "https://ninahand.github.io/interactionlibrary/page-one/"
    },
    {
        "project": "Fliers", 
        "date": "Winter 2023 - Present", 
        "type": "Print/Web Design",
        "description": "Fliers made for various events, including band shows, tours, and plays.",
-       "image": "./assets/flier.jpg"
+       "link": "https://ninahand.github.io/portfolio/fliers/"
    },
    {
        "project": "Stonington",
        "date": "Fall 2023",
        "type": "Photography",
        "description": "120mm color film.",
-       "image": "./assets/stonington.jpg"
+       "link": "https://ninahand.github.io/portfolio/stonington/"
    },
    {
        "project": "Ari", 
        "date": "Summer 2023",
        "type": "Photography",
        "description": "35mm + 120mm b/w film.",
-       "image": "./assets/ari.jpg"
+       "link": "https://ninahand.github.io/portfolio/ari/"
    },
    {
        "project": "Printmaking",
        "type": "Print Design",
        "date": "Spring 2024", 
        "description": "Wood relief carving + letterpress type, lithography.",
-       "image": "./assets/printmaking.jpg"
+       "link": "https://ninahand.github.io/portfolio/printmaking/"
    },
    {
       "project": "The Kippers + Stepford Wives",
       "date": "Fall 2023",
       "type": "Photography",
       "description": "35mm b/w film",
-      "image": "./assets/kippersWives.jpg"
+      "link": "https://ninahand.github.io/portfolio/kipperswives/"
       },
    {
        "project": "Portraits", 
        "date": "Summer 2022 - Present",
        "type": "Photography",
        "description": "35mm and 120mm, b/w and color.",
-       "image": "./assets/portraits.jpg"
+       "image": "./assets/portraits.jpg",
+       "link": "https://ninahand.github.io/portfolio/portraits/"
    },
    {
       "project": "bernadinehand.com", 
       "date": "Present",
       "type": "Web Design",
       "description": "A strange website.",
-      "image": "./assets/nina.jpg"
+      "image": "./assets/nina.jpg",
+      "link": "https://ninahand.github.io/portfolio/home/"
   }
 ]

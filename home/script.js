@@ -5,11 +5,10 @@ document.addEventListener("DOMContentLoaded", function() {
         let tableContainer = document.querySelector('.table-container');
         let imageContainer = document.querySelector('.image-container');
 
-        // Create table element
         let table = document.createElement('table');
         table.classList.add('project-table');
 
-        // Populate table with data
+
         items.forEach(item => {
             let row = table.insertRow();
             let cell1 = row.insertCell();
@@ -21,7 +20,13 @@ document.addEventListener("DOMContentLoaded", function() {
             cell3.textContent = item.type;
             cell4.textContent = item.description;
 
-      
+            row.addEventListener('click', function() {
+            
+                if (item.link) {
+                    window.location.href = item.link;
+                }
+            });
+            
             row.addEventListener('mouseover', function() {
                
                 if (item.image) {

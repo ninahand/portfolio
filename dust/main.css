@@ -1,15 +1,9 @@
-/* reset.css */
+
 html, body, main {
     margin: 0;
     padding: 0;
 }
 
-/* main.css */
-@font-face {
-    font-family: 'Respira Black';
-    src: url('./path/to/Respira-Black.woff') format('woff');
-    /* You can provide multiple formats for compatibility */
-}
 
 html, body, main {
     margin: 0;
@@ -22,7 +16,9 @@ html {
     box-sizing: border-box;
 }
 
-
+.hidden{
+    display: none;
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -55,27 +51,34 @@ body {
     width: 40%;
     text-align: right;
 }
-.gif-container {
+
+.main-container{
     display: flex;
-    justify-content: center;
-    height: 80vh;
-    padding: 3rem;
-}
-
-.gif-container img {
-    max-height: 100%;
-    height: auto;
-}
-
-
-.main-image-container {
-    display: grid;
+    justify-content: space-between;
+    width: 100%;
     padding: 2rem;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
 }
 
-.main-image-container img {
+.grid-container{
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; 
+    width: 45%;
+}
+
+
+.grid-container img{
+    width: 100%
+}
+
+.zoom-container{
+   justify-content: center;
+    width: 50%;
+
+}
+
+.zoom-container img{
     width: 100%;
     height: auto;
+    
 }
