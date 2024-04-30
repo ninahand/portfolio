@@ -1,0 +1,76 @@
+
+html, body, main {
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading-container {
+    display: flex;
+    padding: 1rem;
+}
+
+.name-container {
+    font-size: 2.6rem;
+}
+
+.project-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 2rem;
+}
+
+.title {
+    font-size: 10rem;
+    font-weight: 400;
+}
+
+.description-container {
+    font-size: 2.6rem;
+    width: 40%;
+    text-align: right;
+}
+
+.gif-container,
+.main-image-container {
+    position: relative;
+    width: 100vw;
+}
+
+.gif-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-top: -2%;
+    z-index: 0;
+}
+
+.gif-container img {
+    max-height: 100%; 
+    width: auto; 
+}
+
+.main-image-container {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; 
+}
+
+.main-image-container img {
+    width: 100%;
+    height: auto;
+    margin-top: -30%;
+}
