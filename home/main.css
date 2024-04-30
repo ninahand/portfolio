@@ -1,0 +1,101 @@
+
+@font-face {
+    font-family: 'oracle-regular';
+    src: url('../fonts/oracle-regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'oracle-medium';
+    src: url('../fonts/oracle-medium.woff') format('woff');
+}
+html{
+    margin:0;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+.heading-container{
+    font-family: 'oracle-regular';
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+    padding: 1rem;
+    
+}
+
+
+.about-container{
+    font-size: 2rem;
+    width: 20%;
+    text-align: right;
+}
+
+.name-container{
+    font-size: 2.6rem;
+    text-align: left;
+    position: fixed;
+    left: 1rem;
+}
+
+.main-container{ 
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.table-container{
+    display: flex;
+    align-items: center;
+ 
+    height: 80vh;
+    width: 45%;
+}
+
+.image-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden; 
+}
+
+.image-container img {
+    max-height: 80vh; 
+    max-width: 100%; 
+    height: auto;
+    width: auto; 
+    margin: auto; 
+    display: block; 
+}
+
+
+
+
+.project-table {
+    border-collapse: collapse;
+}
+
+.project-table th, .project-table td {
+    border-bottom: 1px solid black;
+    padding: 0.2rem;
+    font-family: 'oracle-regular';
+    text-align: left;
+    font-size: 1.6rem;
+}
+
+.project-table td{
+    width: 5%;
+    word-wrap: break-word; /* Add this line to enable text wrapping */
+}
+
+.hidden{
+    display: none;
+}
+ 
+.image-container {
+  
+
+}
+
+

@@ -1,0 +1,79 @@
+[
+   {
+       "project": "To Dust You Shall Return", 
+       "date": "Fall 2023",
+       "type": "Print Design",
+       "description": "A book made using the Catholic Church Wikipedia page as text content.",
+       "image": "./assets/dust.png"
+   },
+   {
+       "project": "Greyhound", 
+       "date": "Spring 2024",
+       "type": "Print Design",
+       "description": "A single signature book exploring the ephemerality of home.",
+       "image": "./assets/greyhound.png"
+   },
+   {
+       "project": "Up, Bed", 
+       "date": "Spring 2024",
+       "type": "Web Design",
+       "description": "An online archive of my what I did every day of 2023. (A work in progress)",
+       "image": "./assets/upBed.jpg"
+   },
+   {
+       "project": "The Library of Babel", 
+       "date": "Spring 2024",
+       "type": "Web Design",
+       "description": "A multi-page website translating the story by Jorge Luis Borges into a digital experience.",
+       "image": "./assets/library.jpg"
+   },
+   {
+       "project": "Fliers", 
+       "date": "Winter 2023 - Present", 
+       "type": "Print/Web Design",
+       "description": "Fliers made for various events, including band shows, tours, and plays.",
+       "image": "./assets/flier.jpg"
+   },
+   {
+       "project": "Stonington",
+       "date": "Fall 2023",
+       "type": "Photography",
+       "description": "120mm color film.",
+       "image": "./assets/stonington.jpg"
+   },
+   {
+       "project": "Ari", 
+       "date": "Summer 2023",
+       "type": "Photography",
+       "description": "35mm + 120mm b/w film.",
+       "image": "./assets/ari.jpg"
+   },
+   {
+       "project": "Printmaking",
+       "type": "Print Design",
+       "date": "Spring 2024", 
+       "description": "Wood relief carving + letterpress type, lithography.",
+       "image": "./assets/printmaking.jpg"
+   },
+   {
+      "project": "The Kippers + Stepford Wives",
+      "date": "Fall 2023",
+      "type": "Photography",
+      "description": "35mm b/w film",
+      "image": "./assets/kippersWives.jpg"
+      },
+   {
+       "project": "Portraits", 
+       "date": "Summer 2022 - Present",
+       "type": "Photography",
+       "description": "35mm and 120mm, b/w and color.",
+       "image": "./assets/portraits.jpg"
+   },
+   {
+      "project": "bernadinehand.com", 
+      "date": "Present",
+      "type": "Web Design",
+      "description": "A strange website.",
+      "image": "./assets/nina.jpg"
+  }
+]
