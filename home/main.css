@@ -70,8 +70,6 @@ html{
 }
 
 
-
-
 .project-table {
     border-collapse: collapse;
 }
@@ -81,7 +79,7 @@ html{
     padding: 0.2rem;
     font-family: 'oracle-regular';
     text-align: left;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
 }
 
 .project-table td{
