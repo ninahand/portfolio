@@ -79,8 +79,8 @@ body {
 }
 
 .zoom-container img {
-    max-height: 80vh; /* Limiting the maximum height to 80% of the viewport height */
-    max-width: 100%; /* Ensuring the width doesn't exceed the container width */
-    width: auto; /* Letting the browser calculate the width automatically based on aspect ratio */
-    object-fit: contain; /* Scaling the image to maintain aspect ratio within the container */
+    max-height: 80vh; 
+    max-width: 100%; 
+    width: auto;
+    object-fit: contain; 
 }
