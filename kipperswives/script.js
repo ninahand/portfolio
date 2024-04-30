@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             projectImage.addEventListener('mouseover', function() {
 
-                console.log('mouseover')
+
                 if (item.path) {
                     let img = document.createElement('img');
                     img.src = item.path;
