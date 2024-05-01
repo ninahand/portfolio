@@ -86,6 +86,7 @@ html{
 .project-table td{
     width: 5%;
     word-wrap: break-word; 
+    padding: 0.7rem
 
 
 }
