@@ -88,3 +88,22 @@ body {
     width: auto;
     object-fit: contain; 
 }
+
+.footing-container{
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    justify-content: flex-end;
+    font-size: 2rem;
+
+}
+
+.home-button {
+    padding: 3rem;
+    text-decoration: none; 
+}
+
+.home-button :hover {
+    color: blue;
+    text-decoration: none; 
+}

@@ -1,4 +1,12 @@
 
+@font-face {
+    font-family: 'oracle-regular';
+    src: url('../fonts/oracle-regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'oracle-medium';
+    src: url('../fonts/oracle-medium.woff') format('woff');
+}
 html, body, main {
     margin: 0;
     padding: 0;
@@ -21,13 +29,10 @@ html {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'oracle-regular';
 }
 
-.heading-container {
-    display: flex;
-    padding: 1rem;
-}
+
 
 .name-container {
     font-size: 2.6rem;
@@ -37,18 +42,18 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 3rem;
-    align-items: baseline;
+    align-items: center;
     
 }
 
 .title {
     font-size: 8rem;
-    font-weight: 400;
+
 }
 
 .description-container {
     font-size: 2rem;
-    width: 40%;
+    width: 35%;
     text-align: right;
 }
 
@@ -81,4 +86,23 @@ body {
     width: 100%;
     height: auto;
     
+}
+
+.footing-container{
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    justify-content: flex-end;
+    font-size: 2rem;
+
+}
+
+.home-button {
+    padding: 3rem;
+    text-decoration: none; 
+}
+
+.home-button :hover {
+    color: blue;
+    text-decoration: none; 
 }

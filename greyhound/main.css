@@ -74,3 +74,25 @@ body {
     height: auto;
     margin-top: -30%;
 }
+
+
+.footing-container{
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    justify-content: flex-end;
+    font-size: 2rem;
+
+}
+
+.home-button,
+.next-button {
+    padding-left: 6rem;
+    text-decoration: none; 
+}
+
+.home-button :hover,
+.next-button :hover {
+    color: blue;
+    text-decoration: none; 
+}
