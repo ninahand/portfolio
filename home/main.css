@@ -27,13 +27,13 @@ html{
 
 
 .about-container{
-    font-size: 2rem;
+    font-size: 1.8rem;
     width: 50%;
     text-align: right;
 }
 
 .name-container{
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     text-align: left;
     position: fixed;
     left: 1rem;
@@ -43,7 +43,7 @@ html{
     display: flex;
     justify-content: space-between;
     width: 100vw;
-    padding: 1rem;
+
     padding-left: 2rem;
     padding-right: 2rem;
 }
@@ -96,6 +96,15 @@ html{
 
 .hidden{
     display: none;
+}
+
+
+.project-table td:nth-child(3) {
+    width: 5%;
+}
+
+.project-table td:nth-child(4) {
+    width: 15%;
 }
 
 

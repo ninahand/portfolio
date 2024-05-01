@@ -1,8 +1,5 @@
 [
-    { 
-        "title": "gif",
-        "path": "./assets/greyhound.gif"
-    },
+    
     {
         "path": "./assets/greyhound_1.jpg"
       
@@ -37,9 +34,5 @@
     },
     {
         "path": "./assets/greyhound_10.jpg"
-      
-    },
-    {
-        "path": "./assets/greyhound_11.jpg"
       
     }]
