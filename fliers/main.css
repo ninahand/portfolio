@@ -64,6 +64,9 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px; 
     width: 45%;
+    height: 80vh;
+    overflow: scroll;
+
 }
 
 
@@ -80,7 +83,7 @@ body {
 }
 
 .zoom-container img {
-    max-height: 80vh; 
+    max-height: 75vh; 
     max-width: 100%; 
     width: auto;
     object-fit: contain; 

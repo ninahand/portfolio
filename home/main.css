@@ -61,7 +61,7 @@ html{
 }
 
 .image-container img {
-    max-height: 80vh; 
+    max-height: 75vh; 
     max-width: 100%; 
     height: auto;
     width: auto; 
@@ -93,10 +93,6 @@ html{
 .hidden{
     display: none;
 }
- 
-.image-container {
-  
 
-}
 
 

@@ -64,6 +64,9 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px; 
     width: 45%;
+    height: 80vh;
+    overflow: scroll;
+
 }
 
 
