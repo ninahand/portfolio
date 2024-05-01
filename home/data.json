@@ -14,6 +14,13 @@
        "description": "A single signature book exploring the ephemerality of home.",
        "image": "./assets/greyhound.png",
        "link": "https://ninahand.github.io/portfolio/greyhound/"
+   },{
+        "project": "agency_does_not_exist", 
+       "date": "Spring 2024",
+       "type": "Web Design",
+       "description": "Website created using the federal spending API and tone.js.",
+       "image": "./assets/agency.jpg",
+       "link": "https://ninahand.github.io/agency_does_not_exist/"
    },
    {
        "project": "Up, Bed", 
