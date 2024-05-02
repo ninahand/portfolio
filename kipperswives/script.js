@@ -10,21 +10,21 @@ document.addEventListener("DOMContentLoaded", function() {
             projectImage.src = item.path;
             gridContainer.appendChild(projectImage);
 
-            projectImage.addEventListener('mouseover', function() {
+            if (window.matchMedia("(min-width: 600px)").matches) {
+                projectImage.addEventListener('mouseover', function() {
+                    console.log('mouseover');
+                    if (item.path) {
+                        let img = document.createElement('img');
+                        img.src = item.path;
+                        zoomContainer.innerHTML = '';
+                        zoomContainer.appendChild(img);
+                    }
+                });
 
-
-                if (item.path) {
-                    let img = document.createElement('img');
-                    img.src = item.path;
+                projectImage.addEventListener('mouseout', function() {
                     zoomContainer.innerHTML = '';
-                    zoomContainer.appendChild(img);
-                }
-            });
-
-            projectImage.addEventListener('mouseout', function() {
-                console.log()
-                zoomContainer.innerHTML = '';
-            });
+                });
+            }
         });
     });
 });

@@ -105,3 +105,50 @@ body {
     color: blue;
     text-decoration: none; 
 }
+
+
+@media  screen and (max-width: 900px) {
+    .project-title-container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 1rem;
+    
+    }
+
+    .title {
+        font-size: 5rem;
+        padding-bottom: 2rem;
+    
+    }
+
+    .name-container {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .description-container {
+        font-size: 1.5rem;
+        width: 100%;
+        text-align: left;
+    }
+
+    .main-container{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .grid-container{
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px; 
+        width: 100%;
+    }
+    
+    .zoom-container {
+        margin-top: 0.5rem;
+        width: 100%; 
+        padding-bottom: 2rem;
+    }
+
+   
+
+}
