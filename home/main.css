@@ -16,7 +16,7 @@ html{
 .heading-container{
     font-family: 'oracle-regular';
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     width: 100vw;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -24,7 +24,6 @@ html{
     padding-bottom: 3rem;
     
 }
-
 
 .about-container{
     font-size: 1.8rem;
@@ -35,15 +34,12 @@ html{
 .name-container{
     font-size: 2.4rem;
     text-align: left;
-    position: fixed;
-    left: 1rem;
 }
 
 .main-container{ 
     display: flex;
     justify-content: space-between;
     width: 100vw;
-
     padding-left: 2rem;
     padding-right: 2rem;
 }
@@ -56,14 +52,14 @@ html{
     width: 45%;
 }
 
-.image-container {
+.zoom-container {
     width: 50%;
     display: flex;
     justify-content: center;
     overflow: hidden; 
 }
 
-.image-container img {
+.zoom-container img {
     max-height: 75vh; 
     max-width: 100%; 
     height: auto;
@@ -73,9 +69,6 @@ html{
 }
 
 
-.project-table {
-    border-collapse: collapse;
-}
 
 .project-table th, .project-table td {
     border-bottom: 1px solid black;
@@ -107,5 +100,51 @@ html{
     width: 15%;
 }
 
+.footing-container{
+    font-family: 'oracle-regular';
+    font-size: 1rem;
+    position: fixed;
+    right:0;
+    bottom: 0;
+    padding: 2rem;
 
+}
 
+@media  screen and (max-width: 900px) {
+    .heading-container {
+        flex-direction: column;
+        align-items: flex-start;
+    
+    }
+
+    .name-container {
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .about-container {
+        font-size: 1.5rem;
+        width: 100%;
+        text-align: left;
+    }
+
+    .main-container{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .table-container,
+    .zoom-container {
+        margin-top: 0.5rem;
+        width: 100%;
+    }
+
+    .zoom-container{
+        margin-top: -7rem;
+        padding-bottom: 2rem;
+    }
+    .project-table th, .project-table td {
+    font-size: 1rem;
+    padding: 0.2rem;
+    }
+}

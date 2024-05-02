@@ -3,11 +3,10 @@ document.addEventListener("DOMContentLoaded", function() {
     .then((response) => response.json())
     .then((items) => {
         let tableContainer = document.querySelector('.table-container');
-        let imageContainer = document.querySelector('.image-container');
+        let zoomContainer = document.querySelector('.zoom-container');
 
         let table = document.createElement('table');
         table.classList.add('project-table');
-
 
         items.forEach(item => {
             let row = table.insertRow();
@@ -21,21 +20,29 @@ document.addEventListener("DOMContentLoaded", function() {
             cell4.textContent = item.description;
 
             row.addEventListener('click', function() {
-            
                 if (item.link) {
                     window.location.href = item.link;
                 }
             });
-            
-            row.addEventListener('mouseover', function() {
-               
-                if (item.image) {
-                    let img = document.createElement('img');
-                    img.src = item.image;
-                    imageContainer.innerHTML = '';
-                    imageContainer.appendChild(img);
+
+            if (window.matchMedia("(min-width: 600px)").matches) {
+                row.addEventListener('mouseover', function() {
+                    if (item.image) {
+                        let img = document.createElement('img');
+                        img.src = item.image;
+                        zoomContainer.innerHTML = '';
+                        zoomContainer.appendChild(img);
+                    }
+                });
+            } else {
+                console.log('small screen!')
+                if (item.gif) {
+                    let gif = document.createElement('img');
+                    gif.src = item.gif;
+                    zoomContainer.innerHTML = '';
+                    zoomContainer.appendChild(gif);
                 }
-            });
+            }
         });
 
         tableContainer.appendChild(table);
