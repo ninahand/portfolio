@@ -100,15 +100,7 @@ html{
     width: 15%;
 }
 
-.footing-container{
-    font-family: 'oracle-regular';
-    font-size: 1rem;
-    position: fixed;
-    right:0;
-    bottom: 0;
-    padding: 2rem;
 
-}
 
 @media  screen and (max-width: 900px) {
     .heading-container {

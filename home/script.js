@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     }
                 });
             } else {
-                console.log('small screen!')
+           
                 if (item.gif) {
                     let gif = document.createElement('img');
                     gif.src = item.gif;
