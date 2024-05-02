@@ -138,6 +138,7 @@ body {
     }
     .grid-container{
         display: grid; 
+        overflow: auto;
         grid-template-columns: repeat(2, 1fr);
         gap: 10px; 
         width: 100%;
