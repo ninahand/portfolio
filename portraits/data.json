@@ -38,6 +38,18 @@
         "path": "./assets/portrait_12.jpg"
     },
     {
+        "path": "./assets/portrait_19.jpg"
+    }, 
+    {
+        "path": "./assets/portrait_20.jpg"
+    }, 
+    {
+        "path": "./assets/portrait_21.jpg"
+    }, 
+    {
+        "path": "./assets/portrait_22.jpg"
+    },
+    {
         "path": "./assets/portrait_13.jpg"
     }, 
     {
@@ -54,11 +66,5 @@
     },
     {
         "path": "./assets/portrait_18.jpg"
-    }, 
-    {
-        "path": "./assets/portrait_19.jpg"
-    }, 
-    {
-        "path": "./assets/portrait_20.jpg"
     }
 ]
